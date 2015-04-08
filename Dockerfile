@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM digitallyseamless/nodejs-bower-grunt
+FROM digitallyseamless/nodejs-bower-grunt:0.10
 MAINTAINER Digitally Seamless <docker@digitallyseamless.com>
 
 # Setup build folder
