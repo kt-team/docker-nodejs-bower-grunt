@@ -6,6 +6,7 @@
 
 # Pull base image.
 FROM digitallyseamless/nodejs-bower-grunt
+MAINTAINER Digitally Seamless <docker@digitallyseamless.com>
 
 # Setup build folder
 RUN mkdir -p /usr/src/app
